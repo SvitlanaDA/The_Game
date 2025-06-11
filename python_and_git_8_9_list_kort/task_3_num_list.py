@@ -1,0 +1,12 @@
+num_list = [5, 12, 7, 9, 20, 15]
+print(f"Original list: {num_list}")
+num_list.append(25)
+print(f"After adding 25: {num_list}")
+num_list.pop(2)
+print(f"After removing 7: {num_list}")
+num_list.sort()
+print(f"Sorted list: {num_list}")
+max_num = max(num_list)
+print(f"Largest number: {max_num}")
+min_num = min(num_list)
+print(f"Smallest number: {min_num}")
